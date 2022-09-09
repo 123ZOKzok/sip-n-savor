@@ -63,3 +63,14 @@ h2{
     padding: 10px 0;
 
  }
+ p{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 140%;
+    align-items: flex-start;
+    text-shadow:1px 1px mediumaquamarine;
+
+}
