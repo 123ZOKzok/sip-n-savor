@@ -16,3 +16,12 @@ body{
     font-family: sans-serif;
     
 }
+.container{
+    align-items: flex-start;
+    width: 75%;
+    min-height: 75vh;
+    padding : 15%;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+  }
