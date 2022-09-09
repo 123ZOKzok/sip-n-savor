@@ -74,3 +74,15 @@ h2{
     text-shadow:1px 1px mediumaquamarine;
 
 }
+li{
+    color: bisque;
+}
+.searchBar {
+  width: 100%;
+  max-width: 700px ;
+  background: rgba (255,255,255,0.2) ;
+  display : flex ;
+  align-items : flex-start ;
+  border-radius : 30px ;
+  padding : 10px 20px ;
+}
