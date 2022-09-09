@@ -39,4 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
             imgdiv.addEventListener("click", () => {
               getInfo(drink, infoDiv);
             });
-          }           
+          }
+          function getInfo(drink, container) {
+            container.innerHTML = `<h2> List of ingredients:</h2>
+                <ul> <li> ${drink.strIngredient1} </li>
+                <li> ${drink.strIngredient2} </li>
+                <li> ${drink.strIngredient3} </li>
+                </ul>
+                <h2> <em>Instructions</em> </h2>
+                <h2>${drink.strInstructions}</h2>`;
+          }
+      });           
