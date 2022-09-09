@@ -15,3 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
     getCocktail();
+    searchBar.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const userInput = searchBar["search"].value;
+        cocktails.innerHTML = "";
+        getCocktail(userInput);
+        searchBar.reset();
+      });
