@@ -33,3 +33,10 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             </section>
             `;
+            imgdiv.innerHTML = img;
+            cocktails.appendChild(imgdiv);
+            const infoDiv = imgdiv.querySelector("div#info");
+            imgdiv.addEventListener("click", () => {
+              getInfo(drink, infoDiv);
+            });
+          }           
