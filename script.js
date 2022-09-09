@@ -22,3 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
         getCocktail(userInput);
         searchBar.reset();
       });
+      function loadDrinks(drink) {
+        const imgdiv = document.createElement("div");
+        const img = `
+        <section id="cocktails">
+            <div class="card">
+            <img src="${drink.strDrinkThumb}" alt="${drink.strDrink}" height="350px" width="350px">
+            <h3 id ="imagelabel" > ${drink.strDrink} </h3>
+            <div id="info"> </div>
+            </div>
+            </section>
+            `;
