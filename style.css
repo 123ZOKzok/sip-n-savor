@@ -6,3 +6,13 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    /* background-image:url(/images/image2.jpg); */
+    background-color:black;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 100%;
+    font-family: sans-serif;
+    
+}
