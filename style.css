@@ -113,3 +113,11 @@ li{
    background : #07070c;
    cursor: pointer;
 }
+#cocktails{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template: auto / repeat(auto-fit, minmax(300px, 1fr));
+ }
