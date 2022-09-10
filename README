@@ -7,7 +7,7 @@ a public API(https://www.thecocktaildb.com/api.php).
 Access to  a computer or any other gadget.
 Access to internet.
 ## Setup
-Clone to this repo : git clone <https://github.com/123ZOKzok/sip-n-savor.git orgit@github.com:123ZOKzok/sip-n-savor.git >
+Clone to this repo : git clone https://github.com/123ZOKzok/sip-n-savor.git or git@github.com:123ZOKzok/sip-n-savor.git 
 Download zipped file.
 Unzip the downloaded files in a folder of your choice.
 open the `index.html` from the zipped file with any browser to run the application.
@@ -16,7 +16,7 @@ HTML - which was used to develop the structure off the pages.
 CSS - which was used to style the User Interface.
 JS - Used in interactivity of the application.
 ## live link
-
+https://123zokzok.github.io/sip-n-savor/
 ## copyright and license information
 Copyright (c) [2022] [123ZOKzok]
 Permission is hereby granted, free of charge, to any person obtaining a copy
